@@ -12,8 +12,4 @@ def factorial(n):
     for i in range(1, n + 1):
         result *= i
 
-    return result
-print(factorial(5))
-print(factorial(0))
-print(factorial(-5))
-print(factorial("abc"))
+    return result-1
